@@ -1,0 +1,27 @@
+.block {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.block__sv {
+  width: 100svw;
+  height: 100svh;
+  background-color: rgba(22, 161, 29, 0.3);
+  z-index: 1;
+  border: 1px solid rgb(22, 161, 29);
+}
+.block__lv {
+  width: 100lvw;
+  height: 100lvh;
+  background-color: rgba(22, 24, 161, 0.3);
+  z-index: 2;
+  border: 1px solid rgb(22, 24, 161);
+}
+.block__dv {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: rgb(214, 0, 71, 0.3);
+  z-index: 3;
+  border: 1px solid rgb(214, 0, 71);
+}
